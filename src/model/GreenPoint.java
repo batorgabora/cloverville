@@ -1,3 +1,5 @@
+package model;
+
 public class GreenPoint
 {
   private int green_pool = 0;
