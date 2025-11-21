@@ -4,7 +4,11 @@ public class GreenPoint
 {
   private int green_pool = 0;
 
-  public void addPoints(int points){
+  public void addpoints(int points){
     green_pool += points;
+  }
+  public void usepoints(){
+    green_pool = 0;
+    //something
   }
 }
